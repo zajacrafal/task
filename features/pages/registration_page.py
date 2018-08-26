@@ -1,5 +1,3 @@
-from typing import Tuple
-
 from selenium.webdriver.common.by import By
 from browser import Browser
 
@@ -54,4 +52,3 @@ class RegistrationPage(Browser):
 
     def email_taken(self):
         self.driver.find_element(*Registration.EMAIL_ERROR_TAKEN).is_displayed()
-
