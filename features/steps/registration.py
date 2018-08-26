@@ -20,7 +20,7 @@ def step_impl(context, wrong_email):
     context.registration_page.fill_wrong_email(wrong_email)
 
 
-@then('Wrong email address error is occured')
+@then('Wrong email address error is occurred')
 def step_impl(context):
     assert_true(context.registration_page.email_error)
 
