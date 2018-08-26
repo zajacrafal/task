@@ -1,7 +1,7 @@
-from features.browser import Browser
-from features.pages.home_page import HomePage
-from features.pages.login_page import LogInPage
-from features.pages.registration_page import RegistrationPage
+from browser import Browser
+from pages.home_page import HomePage
+from pages.login_page import LogInPage
+from pages.registration_page import RegistrationPage
 
 
 def before_all(context):

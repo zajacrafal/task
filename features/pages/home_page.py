@@ -1,5 +1,5 @@
 from selenium.webdriver.common.by import By
-from features.browser import Browser
+from browser import Browser
 
 
 class HomePageLoc(object):
